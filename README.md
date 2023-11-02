@@ -15,7 +15,7 @@
     <p>If you choose this option, you need to provide a Steam account with Gorilla Tag game.</p>
     <button onclick="purchaseWithSteam()">Buy with Steam</button>
 
-    <h2>Option 2: Discord Boost Every Month 1 boost per month</h2>
+    <h2>Option 2: Discord Boost Every Month boost every month to contine getting updates</h2>
     <p>If you choose this option, you need to provide a Discord boost every month.</p>
     <button onclick="purchaseWithDiscord()">Buy with Discord Boost</button>
 
@@ -24,12 +24,12 @@
     <script>
         function purchaseWithSteam() {
             // Code to handle purchase with Steam account
-            document.getElementById("purchase-info").innerText = "Please provide your Steam account details with Gorilla Tag to complete the purchase.";
+            document.getElementById("purchase-info").innerText = "Contact @realxcat on discord to continue";
         }
 
         function purchaseWithDiscord() {
-            // Code to handle purchase with Discord boost
-            document.getElementById("purchase-info").innerText = "Please provide your Discord boost details to set up monthly payments for the purchase.";
+            // Open the specified Discord URL in a new tab
+            window.open("https://discord.gg/jy4R44nupf", "_blank");
         }
     </script>
 </body>
