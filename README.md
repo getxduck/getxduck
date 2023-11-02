@@ -15,11 +15,14 @@
     <p>If you choose this option, you need to provide a Steam account with Gorilla Tag game.</p>
     <button onclick="purchaseWithSteam()">Buy with Steam</button>
 
-    <h2>Option 2: Discord Boost Every Month boost every month to contine getting updates</h2>
+    <h2>Option 2: Discord Boost Every Month boost every month to continue getting updates</h2>
     <p>If you choose this option, you need to provide a Discord boost every month.</p>
     <button onclick="purchaseWithDiscord()">Buy with Discord Boost</button>
 
     <div id="purchase-info"></div>
+
+    <!-- Button for YouTuber Review -->
+    <button onclick="redirectToDiscord()">I'm a YouTuber and would like to review this menu</button>
 
     <script>
         function purchaseWithSteam() {
@@ -30,6 +33,11 @@
         function purchaseWithDiscord() {
             // Open the specified Discord URL in a new tab
             window.open("https://discord.gg/jy4R44nupf", "_blank");
+        }
+
+        function redirectToDiscord() {
+            // Redirect to the specified Discord URL in the same tab
+            window.location.href = "https://discord.gg/M8ZWugWurF";
         }
     </script>
 </body>
